@@ -24,15 +24,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
-        useMaterial3: false,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
+        // useMaterial3: false,
       ),
       darkTheme: ThemeData(
-        // colorScheme: ColorScheme.fromSeed(
-        //   seedColor: Colors.greenAccent,
-        //   brightness: Brightness.dark,
-        // ),
-        useMaterial3: false,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.white,
+          brightness: Brightness.dark,
+        ),
+        // useMaterial3: false,
       ),
       themeMode: ThemeMode.system,
       home: LoadingScreen(),
